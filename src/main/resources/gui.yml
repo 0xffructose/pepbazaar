@@ -1,0 +1,162 @@
+bazaar-gui:
+  title: "Pazar"
+  rows: 6
+  page-size: 45
+  bottom-filler: "BLACK_STAINED_GLASS_PANE"
+  buttons:
+    previous-btn:
+      name: "<yellow>Önceki Sayfa"
+      lore: {}
+      material: "ARROW"
+      slot: 48
+    next-btn:
+      name: "<yellow>Sonraki Sayfa"
+      lore: {}
+      material: "ARROW"
+      slot: 50
+    sell-btn:
+      name: "<gold>Ürün ekle"
+      lore: {}
+      material: "SUNFLOWER"
+      slot: 45
+    profile-btn:
+      name: "<aqua>Satıcı Profili"
+      lore: {}
+      material: "PLAYER_HEAD"
+      slot: 46
+
+profile-gui:
+  title: "Satıcı Profilin"
+  rows: 6
+  page-size: 45
+  bottom-filler: "BLACK_STAINED_GLASS_PANE"
+  buttons:
+    back-btn:
+      name: "<red>Geri Dön"
+      lore: { }
+      material: "BARRIER"
+      slot: 45
+    #statistic-btn:
+    #  name: "<green>İstatistiklerin"
+    #  lore: { }
+    #  material: "PLAYER_HEAD"
+    #  slot: 46
+    previous-btn:
+      name: "<yellow>Önceki Sayfa"
+      lore: {}
+      material: "ARROW"
+      slot: 48
+    next-btn:
+      name: "<yellow>Sonraki Sayfa"
+      lore: {}
+      material: "ARROW"
+      slot: 50
+
+
+sell-gui:
+  title: "Satış"
+  rows: 3
+  buttons:
+    back-btn:
+      name: "<red>Geri Dön"
+      lore: {}
+      material: "BARRIER"
+      slot: 18
+
+    minus-one-btn:
+      name: "<red>Fiyat -1"
+      lore: {}
+      material: "RED_WOOL"
+      slot: 12
+
+    item-placeholder:
+      name: "<gold>Eşya Konumu"
+      lore:
+        - "<gray>Satılacak eşyayı"
+        - "<gray>buraya koymalısın"
+      material: "ORANGE_STAINED_GLASS"
+      slot: 13
+
+    plus-one-btn:
+      name: "<green>Fiyat +1"
+      lore: {}
+      material: "LIME_WOOL"
+      slot: 14
+
+    accept-btn:
+      name: "<aqua>Onayla"
+      lore: {}
+      material: "DIAMOND_BLOCK"
+      slot: 26
+
+buy-gui:
+  title: "Satın Alım"
+  rows: 3
+  buttons:
+    back-btn:
+      name: "<red>Geri Dön"
+      lore: { }
+      material: "BARRIER"
+      slot: 18
+
+    item-placeholder:
+      slot: 13
+
+    accept-btn:
+      name: "<aqua>Onayla"
+      lore: { }
+      material: "DIAMOND_BLOCK"
+      slot: 26
+
+edit-gui:
+  title: "Düzenleme"
+  rows: 3
+  buttons:
+    back-btn:
+      name: "<red>Geri Dön"
+      lore: {}
+      material: "BARRIER"
+      slot: 18
+
+    minus-one-btn:
+      name: "<red>Fiyat -1"
+      lore: {}
+      material: "RED_WOOL"
+      slot: 12
+
+    item-placeholder:
+      slot: 13
+
+    plus-one-btn:
+      name: "<green>Fiyat +1"
+      lore: {}
+      material: "LIME_WOOL"
+      slot: 14
+
+    delete-btn:
+      name: "<gray>Ürünü Sil"
+      lore: {}
+      material: "TNT"
+      slot: 22
+
+    accept-btn:
+      name: "<aqua>Onayla"
+      lore: {}
+      material: "DIAMOND_BLOCK"
+      slot: 26
+
+auth-gui:
+  title: "Emin misin?"
+  rows: 3
+  buttons:
+    no-btn:
+      name: "<red>Hayır"
+      lore: { }
+      material: "REDSTONE_BLOCK"
+      slot: 12
+
+    yes-btn:
+      name: "<green>Evet"
+      lore: { }
+      material: "EMERALD_BLOCK"
+      slot: 14

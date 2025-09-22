@@ -1,0 +1,4 @@
+messages:
+  successfuly-listed: "<gray>[</gray> <green>!</green> <gray>]</gray> <#ffd000>Ürün pazarda başarıyla satışa çıkarıldı"
+  only-premium: "<gray>[</gray> <red>!</red> <gray>]</gray> <ffd000>Sadece <aqua>Premium <ffd000>oyuncular satış yapabilir"
+  product-sold: "<gray>[</gray> <red>!</red> <gray>]</gray> <ffd000>Pazardaki ürünün satıldı : %product%"

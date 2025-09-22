@@ -1,0 +1,5 @@
+sounds:
+  unsuccessful: "ENTITY_VILLAGER_NO"
+  successful: "ENTITY_VILLAGER_CELEBRATE"
+  increase: "UI_BUTTON_CLICK"
+  decrease: "UI_BUTTON_CLICK"

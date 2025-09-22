@@ -1,0 +1,6 @@
+name: pepBazaar
+version: '${project.version}'
+main: pepgames.plugins.pepbazaar.PepBazaar
+api-version: '1.18'
+depend:
+  - pepWallet
